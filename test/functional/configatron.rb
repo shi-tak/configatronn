@@ -151,8 +151,14 @@ class Critic::Functional::ConfigatronTest < Critic::Functional::Test
 
   describe 'puts' do
     it 'does not cause an exception' do
-      puts @kernel
-      puts @kernel.hi
+      original_stdout = $stdout
+      $stdout = File.open(File::NULL, "w")
+      begin
+        puts @kernel
+        puts @kernel.hi
+      ensure
+        $stdout = original_stdout
+      end
     end
   end
 
