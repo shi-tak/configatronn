@@ -3,13 +3,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'configatron/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = 'configatron'
+  gem.name          = 'configatronn'
   gem.version       = Configatron::VERSION
-  gem.authors       = ['Mark Bates']
-  gem.email         = ['mark@markbates.com']
+  gem.authors       = ['Taku Shimizu']
+  gem.email         = ['t_shimizu@soloshmz.com']
   gem.description   = 'A powerful Ruby configuration system.'
   gem.summary       = 'A powerful Ruby configuration system.'
-  gem.homepage      = 'https://github.com/markbates/configatron'
+  gem.homepage      = 'https://github.com/shi-tak/configatronn'
   gem.license       = 'MIT'
 
   gem.files         = `git ls-files`.split($/)
