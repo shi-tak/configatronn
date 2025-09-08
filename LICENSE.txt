@@ -1,4 +1,5 @@
 Copyright (c) 2013 Mark Bates
+Copyright (c) 2025 Taku Shimizu
 
 MIT License
 
