@@ -1,5 +1,5 @@
 # Configatron
-[![Build Status](https://travis-ci.org/markbates/configatron.png)](https://travis-ci.org/markbates/configatron) [![Code Climate](https://codeclimate.com/github/markbates/configatron.png)](https://codeclimate.com/github/markbates/configatron)
+
 
 Configatron makes configuring your applications and scripts incredibly easy. No longer is a there a need to use constants or global variables. Now you can use a simple and painless system to configure your life. And, because it's all Ruby, you can do any crazy thing you would like to!
 
@@ -10,7 +10,7 @@ One of the more important changes to V3 is that it now resembles more a `Hash` s
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'configatron'
+gem 'configatronn'
 ```
 
 And then execute:
@@ -22,7 +22,7 @@ $ bundle
 Or install it yourself as:
 
 ```bash
-$ gem install configatron --pre
+$ gem install configatronn --pre
 ```
 
 ## Usage
@@ -30,7 +30,7 @@ $ gem install configatron --pre
 Once installed you just need to require it:
 
 ```ruby
-require 'configatron'
+require 'configatronn'
 ```
 
 ### Simple
@@ -225,7 +225,7 @@ The `configatron` "helper" method is stored in the `Kernel` module. You can opt-
 Example:
 
 ```ruby
-require 'configatron/core'
+require 'configatronn/core'
 
 store = Configatron::RootStore.new
 store.foo = 'FOO'
@@ -286,7 +286,7 @@ configatron.to_h # => {:letters=>{:a=>"A", :b=>"BB", :c=>"C"}}
 5. Push to the branch (`git push origin my-new-feature`)
 6. Create new Pull Request
 
-## Contributors
+## Contributors (markbates/configatron)
 
 * Mark Bates
 * Greg Brockman
