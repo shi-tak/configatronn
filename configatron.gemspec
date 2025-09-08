@@ -22,4 +22,8 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency "mocha"
   gem.add_development_dependency "subprocess"
   gem.add_development_dependency "minitest", '>=5.2.3'
+  gem.add_development_dependency "rubocop"
+  gem.add_development_dependency "rubocop-minitest"
+  gem.add_development_dependency "rubocop-performance"
+  gem.add_development_dependency "rubocop-rake"
 end
